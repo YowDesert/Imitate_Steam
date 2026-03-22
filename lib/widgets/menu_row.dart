@@ -6,15 +6,15 @@ class MenuRow extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Padding(
-      padding: EdgeInsets.symmetric(horizontal: 150),
+      padding: EdgeInsets.symmetric(horizontal: 16),
       child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceAround,
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
           Text('選單 ˅', style: TextStyle(color: Colors.white, fontSize: 16)),
           Text('願望清單', style: TextStyle(color: Colors.white, fontSize: 16)),
           Text(
-            '錢包 (US\$2675418.00)',
-            style: TextStyle(color: Color(0xFF4AA3FF), fontSize: 18),
+            '錢包 (NT\$ 72.49)',
+            style: TextStyle(color: Color(0xFF4AA3FF), fontSize: 16),
           ),
         ],
       ),
