@@ -16,15 +16,15 @@ class GameCardSmall extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       color: const Color(0xFF202636),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Image.network(
-            imageUrl,
-            height: 170,
-            width: double.infinity,
-            fit: BoxFit.cover,
-          ),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Image.asset(
+              imageUrl,
+              height: 170,
+              width: double.infinity,
+              fit: BoxFit.cover,
+            ),
 
           // 下方價格區
           Container(

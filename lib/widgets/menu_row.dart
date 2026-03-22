@@ -13,7 +13,7 @@ class MenuRow extends StatelessWidget {
           Text('選單 ˅', style: TextStyle(color: Colors.white, fontSize: 16)),
           Text('願望清單', style: TextStyle(color: Colors.white, fontSize: 16)),
           Text(
-            '錢包 (NT\$ 72.49)',
+            '錢包 (NT\$ 72000.49)',
             style: TextStyle(color: Color(0xFF4AA3FF), fontSize: 16),
           ),
         ],

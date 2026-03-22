@@ -31,9 +31,9 @@ class GameSection extends StatelessWidget {
               Expanded(
                 flex: 2,
                 child: GameCardLarge(
-                  imageUrl: 'https://picsum.photos/700/900?random=11',
-                  discount: '-50%',
-                  price: 'NT\$ 1,014',
+                  imageUrl: 'assets/games_img/1174180.jpg',
+                  discount: '-75%',
+                  price: 'NT\$ 447',
                 ),
               ),
               SizedBox(width: 12),
@@ -42,15 +42,15 @@ class GameSection extends StatelessWidget {
                 child: Column(
                   children: [
                     GameCardSmall(
-                      imageUrl: 'https://picsum.photos/400/300?random=12',
-                      discount: '-30%',
-                      price: 'NT\$ 951',
+                      imageUrl: 'assets/games_img/1222140.jpg',
+                      discount: '-90%',
+                      price: 'NT\$ 99',
                     ),
                     SizedBox(height: 12),
                     GameCardSmall(
-                      imageUrl: 'https://picsum.photos/400/300?random=13',
-                      discount: '-75%',
-                      price: 'NT\$ 374',
+                      imageUrl: 'assets/games_img/1245620.jpg',
+                      discount: '-35%',
+                      price: 'NT\$ 1,163',
                     ),
                   ],
                 ),

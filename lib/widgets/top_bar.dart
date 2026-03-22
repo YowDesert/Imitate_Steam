@@ -78,7 +78,7 @@ class TopBar extends StatelessWidget {
           ClipRRect(
             borderRadius: BorderRadius.circular(4),
             child: Image.network(
-              'https://picsum.photos/60?random=99',
+              'https://avatars.fastly.steamstatic.com/ab1a827e2157192266669d17b1f4eaf112d52b09_full.jpg',
               width: 42,
               height: 42,
               fit: BoxFit.cover,
