@@ -83,7 +83,7 @@ class YourDlcSection extends StatelessWidget {
                 crossAxisCount: 2,
                 crossAxisSpacing: 16,
                 mainAxisSpacing: 8,
-                childAspectRatio: 1.35,
+                childAspectRatio: 1.10,
               ),
               itemBuilder: (context, index) {
                 final game = dlcGames[index];

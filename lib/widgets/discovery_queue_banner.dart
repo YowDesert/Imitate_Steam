@@ -13,7 +13,7 @@ class DiscoveryQueueBanner extends StatelessWidget {
       child: Align(
         alignment: Alignment.centerLeft,
         child: SizedBox(
-          height: bannerWidth / 5,
+          height: bannerWidth / 4.5,
           width: bannerWidth,
           child: ClipRRect(
             borderRadius: BorderRadius.circular(4),
@@ -58,7 +58,7 @@ class DiscoveryQueueBanner extends StatelessWidget {
                             color: Colors.white,
                             fontSize: 18,
                             fontWeight: FontWeight.bold,
-                            height: 1.2,
+                            height: 1.1,
                           ),
                         ),
                         SizedBox(height: 12),
@@ -69,7 +69,7 @@ class DiscoveryQueueBanner extends StatelessWidget {
                           style: TextStyle(
                             color: Colors.white70,
                             fontSize: 13,
-                            height: 1.35,
+                            height: 1.1,
                           ),
                         ),
                       ],

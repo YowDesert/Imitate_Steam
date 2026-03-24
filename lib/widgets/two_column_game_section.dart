@@ -35,8 +35,8 @@ class TwoColumnGameSection extends StatelessWidget {
             gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
               crossAxisCount: 2, // 一排兩張
               crossAxisSpacing: 16,
-              mainAxisSpacing: 18,
-              childAspectRatio: 1.40,
+              mainAxisSpacing: 20,
+              childAspectRatio: 1.2,
             ),
             itemBuilder: (context, index) {
               final game = games[index];
